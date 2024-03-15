@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  padding: 4px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(84, 3, 104, 0.8);
+  border-radius: 4px;
+
+  color: white;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid rgba(128, 7, 158, 0.8);
+  outline: transparent;
+}
+
+.btn {
+  padding: 4px;
+  background-color: transparent;
+  border: 1px solid rgba(84, 3, 104, 0.8);
+  border-radius: 4px;
+  color: white;
+  /* font-size: 16px; */
+  /* text-transform: uppercase; */
+}
+
+.btn:hover,
+.btn:focus {
+  border: 1px solid rgba(128, 7, 158, 0.8);
+  outline: transparent;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
